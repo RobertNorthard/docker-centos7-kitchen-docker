@@ -1,9 +1,9 @@
 # Kitchen-docker overrides for centos7 with systemd
 
+```
 driver:
   name: docker
-
-```platforms: 
+platforms: 
   - name: centos-7 
     driver_config: 
       images: image-name
